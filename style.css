@@ -1,0 +1,73 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.hero {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(123deg, #fffcac 0%, #ffffff 67%),
+    linear-gradient(180deg, #d8d8d8 0%, #6b0000 100%),
+    linear-gradient(
+      142deg,
+      #f9f5f0 0%,
+      #f9f5f0 33%,
+      #f2ead3 calc(33% + 1px),
+      #f2ead3 56%,
+      #f4991a calc(56% + 1px),
+      #f4991a 62%,
+      #321313 calc(62% + 1px),
+      #321313 100%
+    );
+  background-blend-mode: multiply, overlay, normal;
+  color: #0d004d;
+}
+
+.about {
+  color: #0d004d;
+  background: linear-gradient(
+    125deg,
+    #ecfcff 0%,
+    #ecfcff 40%,
+    #b2fcff calc(40% + 1px),
+    #b2fcff 60%,
+    #5edfff calc(60% + 1px),
+    #5edfff 72%,
+    #3e64ff calc(72% + 1px),
+    #3e64ff 100%
+  );
+}
+.project-card {
+  background: chocolate;
+}
+.project-image {
+  border-radius: 1.2rem;
+  padding: 0.7rem;
+}
+
+footer {
+  background: linear-gradient(123deg, #ffffff 0%, #00b2ff 100%),
+    linear-gradient(236deg, #baff99 0%, #005e64 100%),
+    linear-gradient(180deg, #ffffff 0%, #002a5a 100%),
+    linear-gradient(
+      225deg,
+      #0094ff 20%,
+      #bff4ed 45%,
+      #280f34 45%,
+      #280f34 70%,
+      #ff004e 70%,
+      #e41655 85%,
+      #b30753 85%,
+      #b30753 100%
+    ),
+    linear-gradient(
+      135deg,
+      #0e0220 15%,
+      #0e0220 35%,
+      #e40475 35%,
+      #e40475 60%,
+      #48e0e4 60%,
+      #48e0e4 68%,
+      #d7fbf6 68%,
+      #d7fbf6 100%
+    );
+  background-blend-mode: overlay, overlay, overlay, darken, normal;
+}
