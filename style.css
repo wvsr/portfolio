@@ -1,24 +1,22 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .hero {
   display: grid;
   place-items: center;
-  background: linear-gradient(123deg, #fffcac 0%, #ffffff 67%),
-    linear-gradient(180deg, #d8d8d8 0%, #6b0000 100%),
-    linear-gradient(
-      142deg,
-      #f9f5f0 0%,
-      #f9f5f0 33%,
-      #f2ead3 calc(33% + 1px),
-      #f2ead3 56%,
-      #f4991a calc(56% + 1px),
-      #f4991a 62%,
-      #321313 calc(62% + 1px),
-      #321313 100%
-    );
-  background-blend-mode: multiply, overlay, normal;
-  color: #0d004d;
+  background: #1488cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2b32b2,
+    #1488cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2b32b2,
+    #1488cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #c6c4d1;
 }
 
 .about {
@@ -44,30 +42,26 @@
 }
 
 footer {
-  background: linear-gradient(123deg, #ffffff 0%, #00b2ff 100%),
-    linear-gradient(236deg, #baff99 0%, #005e64 100%),
-    linear-gradient(180deg, #ffffff 0%, #002a5a 100%),
-    linear-gradient(
-      225deg,
-      #0094ff 20%,
-      #bff4ed 45%,
-      #280f34 45%,
-      #280f34 70%,
-      #ff004e 70%,
-      #e41655 85%,
-      #b30753 85%,
-      #b30753 100%
-    ),
-    linear-gradient(
-      135deg,
-      #0e0220 15%,
-      #0e0220 35%,
-      #e40475 35%,
-      #e40475 60%,
-      #48e0e4 60%,
-      #48e0e4 68%,
-      #d7fbf6 68%,
-      #d7fbf6 100%
-    );
-  background-blend-mode: overlay, overlay, overlay, darken, normal;
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form:focus {
+  box-shadow: none;
+  border: 2px solid rgb(17, 0, 255) !important;
+}
+.form {
+  box-shadow: none;
+}
+.btn:focus {
+  box-shadow: none !important;
 }

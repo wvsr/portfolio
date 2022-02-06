@@ -10,10 +10,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
     <title>Hello, world!</title>
@@ -43,17 +44,23 @@
         </div>
       </div>
     </nav>
-    <section class="hero vh-100">
-      <article class="container">
-        <h1 class="display-1 fw-bold text-capitalize">
-          wasimul sami<br />
-          full stack developer
-        </h1>
+
+    <section class="hero h-auto py-5">
+      <article class="container py-5">
+        <h1 class="text-capitalize fw-bold">wasimul sami</h1>
+        <h2 class="mb-3 fw-bold">full stack website developer</h2>
+        <p class="mb-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis <br />
+          ratione eum dolor perspiciatis odio rem ullam sit minus rerum.
+        </p>
+        <button class="btn btn-light">View my project</button>
       </article>
     </section>
+
     <section class="py-5">
       <article class="container">
-        <h2 class="display-5 text-center fw-bold pb-4">OUR TEAM</h2>
+        <h5 class="text-primary text-center fw-bold">EXPERIENCE</h5>
+        <h3 class="display-5 text-center fw-bold pb-4">Sample Of My Work</h3>
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
           <div class="col">
@@ -101,7 +108,7 @@
     </section>
     <section class="about py-5">
       <article class="container">
-        <h2 class="display-5 my-4">about me</h2>
+        <h2 class="display-5 my-4 text-capitalize">about me</h2>
         <p class="fs-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nihil
           iure tempora, suscipit voluptas nulla dolor in, cum officiis maxime
@@ -125,7 +132,7 @@
             >
             <input
               type="email"
-              class="form-control"
+              class="form-control shadow-none form form"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
             />
@@ -136,7 +143,7 @@
             >
             <input
               type="email"
-              class="form-control"
+              class="form-control shadow-none form form"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
             />
@@ -146,12 +153,14 @@
               >Example textarea</label
             >
             <textarea
-              class="form-control"
+              class="form-control shadow-none form form"
               id="exampleFormControlTextarea1"
               rows="3"
             ></textarea>
           </div>
-          <div class="btn btn-lg btn-success mx-md-5">send it!</div>
+          <div class="text-center">
+            <button class="btn btn-lg btn-light mx-md-5">send it!</button>
+          </div>
         </form>
       </section>
       <section class="container">
