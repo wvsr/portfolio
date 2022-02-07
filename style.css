@@ -4,6 +4,7 @@
 .hero {
   display: grid;
   place-items: center;
+  color: white;
   background: #1488cc; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -15,8 +16,6 @@
     #2b32b2,
     #1488cc
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  color: #c6c4d1;
 }
 
 .about {
@@ -64,4 +63,18 @@ footer {
 }
 .btn:focus {
   box-shadow: none !important;
+}
+.btn:hover {
+  transform: scale(0.95) translateY(-2px);
+  transition: transform 0.1s;
+}
+.stack-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.stack {
+  height: 100px;
+  width: 100px;
 }
