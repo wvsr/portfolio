@@ -32,7 +32,7 @@ background-blend-mode: overlay, screen, overlay, overlay, normal;
 }
 
 footer {
-  background: #8e2de2; /* fallback for old browsers */
+  /* background: #8e2de2; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #4a00e0,
